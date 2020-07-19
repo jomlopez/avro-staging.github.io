@@ -1,0 +1,106 @@
+
+	.delay-1 {
+animation-delay: .25s;
+}
+.delay-2 {
+animation-delay: .5s;
+}
+.delay-3 {
+animation-delay: .75s;
+}
+.delay-4 {
+animation-delay: 1s;
+}
+	#tracker-more li, #modern-more li, #fleet-more li {	
+list-style: disc; margin-left: 30px;
+	}
+		#tractor-move, #tracker-move, #cogs-move-all  {display:none;}
+	#icons-static, #tractor, #icons-static #cogs  {display:none;}
+	#tracker, #fleet, #modern {cursor: pointer}	
+	#icons-static {
+		display: none;
+	}	
+	 #tracker-text, #fleet-text,  #modern-text{
+		display: none;
+	}
+#fleet-expand, #tracker-expand, #modern-expand {display: none;}
+	#modern:hover, #fleet:hover, #tracker:hover {
+		opacity: 0.5;
+	}	
+	#tracker-move {
+		transform-origin: 132.1px 262.3px;
+		 animation: scale-up 2s linear infinite;
+		-moz-transform-origin: 132.1px 262.3px;
+		 -moz-animation: scale-up 2s linear infinite;
+		-webkit-transform-origin: 132.1px 262.3px;
+		 -webkit-animation: scale-up 2s linear infinite;
+	}
+	#cogs-move {
+		 transform-origin: 240.324px 273.941px;
+  animation: spin 10s linear infinite;
+  animation-delay: 0.8s;
+	}
+	#cogs-move-small {
+		 transform-origin: 287.694px 245.576px;
+  animation: spin-reverse 10s linear infinite;
+  animation-delay: 0.8s;
+	}
+	@keyframes spin {
+	transition: all .2s ease-in-out;
+	}
+	@keyframes spin {
+		0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-reverse {
+	 0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes scale-up {
+0% {
+    -webkit-transform: scale(1);
+  }
+		1% {
+        opacity: 0;
+		}
+		80% {
+    opacity: 100;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+	}
+	@keyframes scale-up-small {
+0% {
+    -webkit-transform: scale(1);
+  }
+		50% {
+    -webkit-transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+  }
+	}
+#modern, #tracker, #fleet, #avro-animate, #modern-expand, #fleet-expand, #tracker-expand, #cogs-move-all, #fleet-text, #modern-text, #logo{
+   -webkit-transition: opacity .7s ease-in-out;
+   -moz-transition: opacity .7s ease-in-out;
+   -ms-transition: opacity .7s ease-in-out;
+   -o-transition: opacity .7s ease-in-out;
+   transition: opacity .7s ease-in-out;
+}
