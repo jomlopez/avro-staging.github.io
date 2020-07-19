@@ -348,7 +348,7 @@ img.site-logo {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5dbed3",endColorstr="#238eaf",GradientType=1);
   background-image: url('../images/resources/avro-map.png');
   background-attachment: fixed;
-  background-size: cover%;
+  background-size: cover;
   padding-top: 40%; 
   background-position-x: 70%;
   position: relative;
