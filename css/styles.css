@@ -538,6 +538,7 @@ input[name="btnNewsletterSignup"] {
   top: -56px;
   left: 50%;
   transform: translateX(-50%);
+  border-radius:5px;
   padding: 3rem 4rem;
   background: #fff;
   box-shadow: 0 5px 8px rgba(0,0,0,0.3);
