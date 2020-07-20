@@ -85,9 +85,14 @@ section {
 }
 .hero-content h2 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 5rem;
+  margin-bottom:2rem;
 }
-
+.hero-content p {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom:2rem;
+}
 
 
 /* ===================================== */
