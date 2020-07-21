@@ -48,7 +48,7 @@ section {
 .hero {
   position: relative;
   height: 100vh;
-  z-index: -2;
+  z-index: 0;
   background: url("../images/resources/video-poster-1.jpg") center top/cover no-repeat;
 }
 .hero .overlay {
