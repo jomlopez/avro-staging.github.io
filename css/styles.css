@@ -344,7 +344,7 @@ img.site-logo {
 }
 
 .masonry-module .tiles--desktop .tile h2, .masonry-module .tiles--desktop .tile .desc {
-  /*font-size: 12px;*/
+  font-size: 2rem;
   color: #fff;
   font-weight: normal;
   /*letter-spacing: 2px;*/
